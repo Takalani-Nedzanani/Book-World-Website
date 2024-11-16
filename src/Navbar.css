@@ -1,0 +1,36 @@
+/* src/Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-image: url('https://th.bing.com/th/id/OIP.U3BOVv2kW3MUZJ7STDoKuQHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    font-weight: bolder;
+  }
+  
+  .navbar-links a:hover {
+    color: #ddd;
+  }
+  

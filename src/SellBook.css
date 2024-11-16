@@ -1,0 +1,58 @@
+/* src/SellBook.css */
+.body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://assets.rbl.ms/14541477/980x.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 83vh;
+
+}
+.sell-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+    background-image: url('https://assets.rbl.ms/14541477/980x.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* max-width: 600px; */
+    /* min-height: 100vh; */
+  }
+  
+  .sell-book h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sell-book input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .sell-book button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0d5f1c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sell-book button:hover {
+    background-color: #3fff22;
+  }
+  

@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.navbar-logo {
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.home, .books, .sell-book, .buy-book, .book-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px;
+  color: #fff;
+  background-color: #185b13;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.book-card, .sell-book {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

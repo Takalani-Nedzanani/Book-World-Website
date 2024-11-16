@@ -1,0 +1,27 @@
+.footer {
+    background-image: url('https://th.bing.com/th/id/OIP.U3BOVv2kW3MUZJ7STDoKuQHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain'); /* Add the path to your background image */
+    background-size: cover; /* Ensures the image covers the entire footer */
+    background-position: center;
+    padding: 1rem;
+    text-align: center;
+    color: #fff; /* White text for readability */
+    font-size: 1rem;
+    position: relative;
+}
+
+.footer p {
+    margin: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    z-index: 0;
+}
